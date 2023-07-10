@@ -222,7 +222,8 @@ col A의 basis라고 생각할수있습니다. 그래서 dim colA = r이 되어�
 ##45-4 (43)
 네그러면 AV가 [Av1,Av2,,,Avr,0,0,0...] 이 됩니다. 그리고 A가 m*n, V는 ATA의 아이젠벡터들이므로 n*n이죠.
 AV는 m*n이 됩니다. 이는 [sigma1 u1, sigma2 u2...0...] 이 됩니다.
-그러면 이걸 U * sigma 로 나타낼수있는것이고, 이때 U가 m*m, sigma가 m*n 이 됩니다.
+그러면 이걸 U * sigma 로 나타낼수있는것이고, 이때 U가 m*m의 orthonormal, sigma가 m*n의 diagonal matrix가 됩니다. 
+즉 AV의 노멀라이징이라 생각하면되는것입니다.
 그럼 아래와 같이 U sigma 가 AV랑 일치하게 되는것입니다.
 
 그러면 V.T를 곱하여, A=u sigma V.T가 되는것입니다.
